@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --color-1: #c1121f;
+  --color-2: #003049;
+  --color-3: #fdf0d5;
+  --color-4: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  /* font-family: 'Source Code Pro', monospace; */
+}
+
+.nav-items {
+  display: flex;
+}
+
+.logo {
+  font-size: 2.25rem;
+  font-weight: 700;
+  letter-spacing: -1px;
+  color: var(--color-1);
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: center;
+  padding: 1rem 4rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  position: sticky;
+  /* background-color: var(--color-3); */
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
+  gap: 2rem;
+  /* width: 100%; */
+}
+
+.nav-item {
+  color: black;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+}
+
+.nav-item:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* .container { */
+/* padding: 2rem 0; */
+/* } */
+
+.hero {
+  padding: 5rem;
+  background-image: url("assets/environmentalhealth_pd3_workersafety_0.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tagline {
+  background-color: rgba(253, 240, 213, 0.75);
+  font-size: 2rem;
+  color: var(--color-2);
+  font-weight: 600;
+  padding: 1rem 2rem;
+  padding-bottom: 0;
+}
+
+.vision {
+  background-color: rgba(253, 240, 213, 0.75);
+  padding: 1rem 2rem;
+}
+
+.footer-header {
+  font-weight: 600;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.footer {
+  padding: 4rem 8rem;
+  display: flex;
+  background-color: var(--color-2);
+  color: white;
+}
+
+.footer-items {
+  flex: 1;
+}
+
+.footer-item {
+  opacity: 0.9;
+  padding: 0.25rem 0;
+}
+
+.content {
+  padding: 4rem;
+}
+
+li {
+  list-style-type: none;
+  padding: 0.5rem;
+}
+
+.title {
+  padding-bottom: 0.5rem;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.donate {
+  padding: 3rem 4rem;
+  background-color: var(--color-3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.donate span {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.donate button {
+  padding: 1rem 2rem;
+  background: #780000;
+  color: white;
+  width: fit-content;
+  font-weight: 600;
+  border: 0px;
+}
+
+button:hover {
+  cursor: pointer;
+}
